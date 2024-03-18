@@ -1,0 +1,21 @@
+  ],
+  "refresh": "",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": [
+    "nginx"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Nginx Dashboard",
+  "uid": "e6327f79-6b69-4d69-9835-46572deed9c1",
+  "version": 2,
+  "weekStart": ""
+}

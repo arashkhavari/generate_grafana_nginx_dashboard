@@ -1,0 +1,20 @@
+# Path to the main Nginx configuration file
+nginx_conf_path=/etc/nginx/nginx.conf
+
+# Path to the directory containing additional Nginx configuration files
+config_path=/etc/nginx/conf.d/
+
+# Path to the writable log file for Prometheus metrics
+log_path_write=/var/log/nginx/prometheus.log
+
+# Path to the readable log file for analysis by the script
+log_path_read=/var/log/nginx/prometheus.log
+
+# Command to reload Nginx configuration (likely using Docker Compose)
+reload_command_nginx="nginx -s reload"
+
+# Placeholder for the script's working directory (likely unnecessary to change)
+loadscript_path="pwd"
+
+# Cron job schedule for log truncation (every day at midnight)
+log_truncate_cron="0 0 * * *"

