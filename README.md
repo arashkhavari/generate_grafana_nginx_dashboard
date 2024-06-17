@@ -17,7 +17,7 @@ Automatically generate a Grafana dashboard to visualize Nginx metrics, including
 ## Installation:  
 Clone this repository:  
 ```Bash
-git clone https://github.com/your-username/nginx-monitoring.git
+https://github.com/arashkhavari/generate_grafana_nginx_dashboard.git  
 ```
 Use code with caution.  
 Edit the ```.env``` file with your Nginx configuration paths and other settings.  
